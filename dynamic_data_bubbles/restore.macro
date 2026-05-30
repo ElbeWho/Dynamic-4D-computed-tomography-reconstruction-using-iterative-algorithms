@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<xactmacro version="1.0" xactrevision=" 24.04.4 2025-03-13">
+	<point name="Point" action="Snapshot">
+		<object name="Gene_H">
+			<property name="offset" type="double" value="0" />
+			<property name="userLimit" type="string" value="min:;max:" />
+			<property name="position" type="double" value="209.16842505170146" />
+			<property name="speed" type="double" value="50" />
+			<property name="readyDelay" type="int" value="0" />
+		</object>
+		<object name="Gene_V">
+			<property name="offset" type="double" value="0" />
+			<property name="userLimit" type="string" value="min:;max:" />
+			<property name="position" type="double" value="-258.12835426330514" />
+			<property name="speed" type="double" value="50" />
+			<property name="readyDelay" type="int" value="0" />
+		</object>
+		<object name="Img_Rot">
+			<property name="offset" type="double" value="0" />
+			<property name="userLimit" type="string" value="min:;max:" />
+			<property name="position" type="double" value="0" />
+			<property name="speed" type="double" value="0" />
+			<property name="readyDelay" type="int" value="0" />
+		</object>
+		<object name="Laminography">
+			<property name="laminoMode" type="bool" value="false" />
+			<property name="projectDir" type="string" value="X:\training\Laminography" />
+			<property name="prefix" type="string" value="img_" />
+			<property name="type" type="int" value="3" />
+			<property name="numberOfImages" type="int" value="400" />
+			<property name="sampleWidth" type="double" value="13.168" />
+			<property name="sampleHeight" type="double" value="25.97577177588174" />
+			<property name="sampleThickness" type="double" value="3.998" />
+			<property name="sampleOffsetX" type="double" value="1.004" />
+			<property name="sampleOffsetY" type="double" value="-12.704885887940868" />
+			<property name="sampleOffsetZ" type="double" value="0" />
+			<property name="switchOffXrays" type="bool" value="true" />
+			<property name="sleepTime" type="int" value="0" />
+			<property name="readyDelay" type="int" value="0" />
+		</object>
+		<object name="Rotation">
+			<property name="offset" type="double" value="0" />
+			<property name="userLimit" type="string" value="min:;max:" />
+			<property name="position" type="double" value="-28.135200000000168" />
+			<property name="speed" type="double" value="80" />
+			<property name="readyDelay" type="int" value="0" />
+		</object>
+		<object name="Tomo">
+			<property name="tomographyPosition" type="bool" value="true" />
+			<property name="projectDir" type="string" value="X:\scans\Gabi\bubbles-2\run-1" />
+			<property name="prefix" type="string" value="img_" />
+			<property name="type" type="int" value="0" />
+			<property name="typeOption" type="int" value="4" />
+			<property name="imagers" type="string" value="Vieworks" />
+			<property name="numberOfTurns" type="int" value="1" />
+			<property name="numberOfImagesPerTurn" type="int" value="128" />
+			<property name="verticalStart" type="double" value="-258.12835426330514" />
+			<property name="verticalEnd" type="double" value="-258.12835426330514" />
+			<property name="sleepTimeBlack" type="int" value="0" />
+			<property name="sleepTime" type="int" value="0" />
+			<property name="sleepAfterMove" type="int" value="0" />
+			<property name="switchOffXrays" type="bool" value="false" />
+			<property name="runBlackCalibration" type="bool" value="false" />
+			<property name="runGainCalibration" type="bool" value="false" />
+			<property name="virtualCentering" type="bool" value="false" />
+			<property name="centerX" type="double" value="0" />
+			<property name="centerZ" type="double" value="0" />
+			<property name="templateReconstructionXML" type="string" value="" />
+			<property name="antiRingShift" type="bool" value="false" />
+			<property name="beamAlignment" type="bool" value="false" />
+			<property name="enableAuto" type="bool" value="false" />
+			<property name="useCustomTurnParam" type="bool" value="false" />
+			<property name="customTurnParam" type="string" value="" />
+			<property name="readyDelay" type="int" value="0" />
+		</object>
+		<object name="Vieworks">
+			<property name="mode" type="int" value="2" />
+			<property name="framerate" type="double" value="60" />
+			<property name="shiftWidth" type="int" value="1" />
+			<property name="shiftHeight" type="int" value="1" />
+			<property name="margin" type="int" value="0" />
+			<property name="horizontalCropRatio" type="double" value="0.7" />
+			<property name="verticalCropRatio" type="double" value="0" />
+			<property name="numOfCalFrames" type="int" value="512" />
+			<property name="digitalGain" type="int" value="1" />
+			<property name="areCalibrationsEnabled" type="bool" value="true" />
+			<property name="rmMode" type="int" value="0" />
+			<property name="avrFrames" type="int" value="4" />
+			<property name="noAvrOnMove" type="bool" value="true" />
+			<property name="lookUpTableData" type="string" value="(0.147321;0;-1;0)(0.3125;1;-1;0)" />
+			<property name="filter" type="string" value="Filter" />
+			<property name="readyDelay" type="int" value="0" />
+		</object>
+		<object name="Xray150">
+			<property name="voltage" type="int" value="150" />
+			<property name="current" type="int" value="200" />
+			<property name="focalMode" type="int" value="1" />
+			<property name="xRayEnabled" type="bool" value="true" />
+			<property name="timer" type="int" value="0" />
+			<property name="filter" type="string" value="Al 1.2mm" />
+			<property name="readyDelay" type="int" value="1000" />
+		</object>
+		<object name="Zoom">
+			<property name="offset" type="double" value="0" />
+			<property name="userLimit" type="string" value="min:;max:" />
+			<property name="position" type="double" value="-295.89812664985675" />
+			<property name="speed" type="double" value="50" />
+			<property name="readyDelay" type="int" value="0" />
+		</object>
+		<object name="Zoom_Img">
+			<property name="offset" type="double" value="0" />
+			<property name="userLimit" type="string" value="min:;max:" />
+			<property name="position" type="double" value="239.99938488006592" />
+			<property name="speed" type="double" value="50" />
+			<property name="readyDelay" type="int" value="0" />
+		</object>
+	</point>
+</xactmacro>
