@@ -12,6 +12,8 @@ Synthetic Data Generation: Tools for simulating volumetric target data to train 
 
 End-to-End Workflow: Step-by-step Jupyter Notebooks guiding through raw projection loading, sinogram processing, mathematical reconstruction, and final neural network post-processing.
 
+Data: CT scanner X-Ray150 raw data is provided for dynamic experiment containing plastic pipe of glycerine and floating air-bubles. 
+
 🛠️ Prerequisites & Installation
 To run the notebooks, you will need a Python 3 environment. Due to the heavy computational requirements of 3D volumetric processing, a CUDA-enabled GPU is highly recommended.
 
@@ -29,3 +31,7 @@ Clone the repository and install the required packages:
 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+If any questions arise please contact elbewho@gmail.com. 
+If data for static reconstruction (three probes with different contrast fluid) is needed please contact elbewho@gmail.com.
